@@ -277,7 +277,7 @@ netfilter-persistent reload
 # download script
 cd /usr/bin
 wget -O usernew "https://raw.githubusercontent.com/apih46/mini/main/ssh/usernew.sh"
-wget -O del-user "https://raw.githubusercontent.com/apih46/mini/main/ssh/hapus.sh"
+wget -O hapus "https://raw.githubusercontent.com/apih46/mini/main/ssh/hapus.sh"
 wget -O member "https://raw.githubusercontent.com/apih46/mini/main/ssh/member.sh"
 wget -O renew "https://raw.githubusercontent.com/apih46/mini/main/ssh/renew.sh"
 wget -O cek "https://raw.githubusercontent.com/apih46/mini/main/ssh/cek.sh"
