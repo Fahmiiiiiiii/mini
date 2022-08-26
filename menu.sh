@@ -87,7 +87,7 @@ echo -e "Use Core        :  $rekk"
 echo -e "Current Domain  :  $(cat /etc/$bec/domain)"
 echo -e "IP-VPS          :  $IPVPS"
 echo -e "\e[36m╒════════════════════════════════════════════╕\033[0m"
-echo -e " \E[0;41;36m                 SSH MENU                   \E[0m"
+echo -e " \E[0;41;36m          SCRIPT PREMIUM BY FAHMI                   \E[0m"
 echo -e "\e[36m╘════════════════════════════════════════════╛\033[0m"
 echo -e " [\033[1;36m01\033[0m]  Add User SSH
  [\033[1;36m02\033[0m]  SSH WS Enable
