@@ -29,7 +29,7 @@ echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━�
 echo -e "\E[44;1;39m                     ⇱ INFORMASI VPS ⇲                        \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e " ⚡$bd ISP Name          ${color1} •${color3}$bd $ISP"
-echo -e " ⚡ $bd City              ${color1} •${color3}$bd Singapore"
+echo -e " ⚡$bd City              ${color1} •${color3}$bd Singapore"
 echo -e " ⚡$bd Total RAM         ${color1} •${color3}$bd $tram MB"
 echo -e " ⚡$bd IP VPS            ${color1} •${color3}$bd $MYIP"
 echo -e " ⚡$bd DOMAIN VPS        ${color1} •${color3}$bd $DOMAIN"
