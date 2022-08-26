@@ -20,7 +20,7 @@ BURIQ () {
     done
     rm -f  /root/tmp
 }
-# https://raw.githubusercontent.com/apih46/access/main/ip 
+# https://raw.githubusercontent.com/Fahmiiiiiiii/access/main/ip 
 MYIP=$(curl -sS ipv4.icanhazip.com)
 Name=$(curl -sS https://raw.githubusercontent.com/Fahmiiiiiiii/access/main/ip | grep $MYIP | awk '{print $2}')
 echo $Name > /usr/local/etc/.$Name.ini
@@ -197,10 +197,10 @@ fi
 fi
 
 echo ""
-wget -q https://raw.githubusercontent.com/apih46/mini/main/tools.sh;chmod +x tools.sh;./tools.sh
+wget -q https://raw.githubusercontent.com/Fahmiiiiiiii/mini/main/tools.sh;chmod +x tools.sh;./tools.sh
 rm tools.sh
 clear
-#wget -q "https://raw.githubusercontent.com/apih46/mini/main/ssh/cf.sh" && chmod +x cf.sh && ./cf.sh
+#wget -q "https://raw.githubusercontent.com/Fahmiiiiiiii/mini/main/ssh/cf.sh" && chmod +x cf.sh && ./cf.sh
 clear
 yellow "Add Domain for vmess/vless/trojan dll"
 echo " "
@@ -273,7 +273,7 @@ gg="AM"
 fi
 curl -sS ifconfig.me > /etc/myipvps
 echo " "
-echo "=====================-[ BAHENOL Premium ]-===================="
+echo "=====================-[ FahmiStore Script Premium ]-===================="
 echo ""
 echo "------------------------------------------------------------"
 echo ""
@@ -315,7 +315,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ Script Created By BAHENOL ]-==============="
+echo "===============-[ Script Created By FAHMI ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
