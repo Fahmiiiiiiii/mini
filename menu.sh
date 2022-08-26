@@ -46,6 +46,7 @@ echo -e "
 [${green}04${NC}]${color1} •${color3}$bd Delete User SSH (${color2}menu-delssh${color3})
 [${green}05${NC}]${color1} •${color3}$bd Renew SSH Account (${color2}menu-renewssh${color3})
 [${green}06${NC}]${color1} •${color3}$bd Check User Login (${color2}menu-userlogin${color3})
+
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "\E[44;1;39m                     ⇱ XRAY MENU ⇲                              \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
@@ -57,6 +58,7 @@ echo -e "
 [${green}11${NC}]${color1} •${color3}$bd Cek User Xray (${color2}cek-user${color3})
 [${green}12${NC}]${color1} •${color3}$bd Dell User Xray (${color2}dell-user${color3})
 [${green}13${NC}]${color1} •${color3}$bd Renew User Xray (${color2}cek-user${color3})
+
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "\E[44;1;39m                     ⇱ MENU  OPTIONS ⇲                        \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
