@@ -39,14 +39,14 @@ echo -e " ⚡$bd Expiry script     ${color1} •${color3}$bd LIFETIME"
 echo -e " ${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e " \E[44;1;39m                     ⇱ MENU  SSH ⇲                                 \E[0m"
 echo -e " ${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e ""
+echo ""
 echo -e " [${green}01${NC}]${color1} •${color3}$bd Add User SSH  (${color2}menu-ssh${color3})
 echo -e " [${green}02${NC}]${color1} •${color3}$bd SSH WS Enable (${color2}menu-sshws${color3})
 echo -e " [${green}03${NC}]${color1} •${color3}$bd Cek User SSH (${color2}menu-cekssh${color3})
 echo -e " [${green}04${NC}]${color1} •${color3}$bd Delete User SSH (${color2}menu-delssh${color3})
 echo -e " [${green}05${NC}]${color1} •${color3}$bd Renew SSH Account (${color2}menu-renewssh${color3})
 echo -e " [${green}06${NC}]${color1} •${color3}$bd Check User Login (${color2}menu-userlogin${color3})
-echo -e ""
+echo ""
 
 echo -e ""
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
@@ -60,7 +60,7 @@ echo -e "[${green}10${NC}]${color1} •${color3}$bd Add Shadowsock (${color2}add
 echo -e "[${green}11${NC}]${color1} •${color3}$bd Cek User Xray (${color2}cek-user${color3})
 echo -e "[${green}12${NC}]${color1} •${color3}$bd Dell User Xray (${color2}dell-user${color3})
 echo -e "[${green}13${NC}]${color1} •${color3}$bd Renew User Xray (${color2}cek-user${color3})
-echo -e ""
+echo ""
 
 echo -e ""
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
@@ -73,13 +73,13 @@ echo -e "[${green}16${NC}]${color1} •${color3}$bd Backup Account (${color2}bck
 echo -e "[${green}17${NC}]${color1} •${color3}$bd Restore Account (${color2}restore-data${color3})
 echo -e "[${green}18${NC}]${color1} •${color3}$bd PANEL BOT (${color2}panel${color3})
 echo -e "[${green}00${NC}]${color1} •${color3}$bd UNTUK KEMBALI KE MENU (${color2}menu${color3})
-echo -e ""
+echo ""
 
 echo -e ""
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "\E[44;1;39m                     ⇱ FAHMI STORE ⇲                       \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e ""
+echo ""
  read -p "  Select menu :  " menu
 echo -e   ""
 case $menu in
