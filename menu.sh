@@ -151,7 +151,7 @@ read -p "Input Your Choose ( 1-20 ) : " choosemu
 
 case $choosemu in
     1) # >> CREATE SSH
-        addssh
+        usernew
     ;;
     2) # >> ON OFF SSH WS
         member
@@ -171,14 +171,14 @@ case $choosemu in
         speedtest
     ;;
     7) # >> Ram Usage
-        addws
+        add-ws
     ;;
     8) # >> Bandiwdth usage
         clear
-        addvless
+        add-vless
     ;;
     9) # >> Change Timezone
-        addtr
+        add-tr
         ;;
     10) # >> Change Timezone
         bw
