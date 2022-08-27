@@ -127,7 +127,7 @@ echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━�
 echo -e " [ SSH WebSocket${NC} : ${status_ws} ]   [ XRAY${NC} : ${status_xray} ]   [ NGINX${NC} : ${status_nginx} ]"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
-echo -e "[${GREEN}01${NC}]${RED} •${NC} Add User SSH$NC         [${GREEN}11${NC}]${RED} • ${NC}Cek Usage"
+echo -e "[${GREEN}01${NC}]${RED} •${NC} Add User SSH$NC         [${GREEN}11${NC}]${RED} • ${NC}Renew Xray"
 echo -e "[${GREEN}02${NC}]${RED} •${NC} Member SSH $NC          [${GREEN}12${NC}]${RED} • ${NC}Cek User Xray $NC"
 echo -e "[${GREEN}03${NC}]${RED} •${NC} Cek User SSH$NC         [${GREEN}13${NC}]${RED} • ${NC}Del User Xray $NC"
 echo -e "[${GREEN}04${NC}]${RED} •${NC} Del User SSH$NC         [${GREEN}14${NC}]${RED} • ${NC}BOT TELEGRAM $NC"
@@ -184,7 +184,7 @@ case $choosemu in
         bw
     ;;
     11) # // Change License
-        cekusage
+        renew-xray
     ;;
     12) # >> Change domain
         cek-user
@@ -202,7 +202,7 @@ case $choosemu in
         crtv2ray
     ;;
     17) # // Create SSL For Stunnel
-        bckp
+        user-backup
     ;;
     18) # // OpenVPN
         restore
