@@ -130,7 +130,7 @@ echo -e ""
 echo -e "[${GREEN}01${NC}]${RED} •${NC} Add User SSH$NC         [${GREEN}11${NC}]${RED} • ${NC}Renew Xray"
 echo -e "[${GREEN}02${NC}]${RED} •${NC} Member SSH $NC          [${GREEN}12${NC}]${RED} • ${NC}Cek User Xray $NC"
 echo -e "[${GREEN}03${NC}]${RED} •${NC} Cek User SSH$NC         [${GREEN}13${NC}]${RED} • ${NC}Del User Xray $NC"
-echo -e "[${GREEN}04${NC}]${RED} •${NC} Del User SSH$NC         [${GREEN}14${NC}]${RED} • ${NC}BOT TELEGRAM $NC"
+echo -e "[${GREEN}04${NC}]${RED} •${NC} Del User SSH$NC         [${GREEN}14${NC}]${RED} • ${NC}Auto Backup $NC"
 echo -e "[${GREEN}05${NC}]${RED} •${NC} Renew SSH $NC           [${GREEN}15${NC}]${RED} • ${NC}Add Domain $NC"
 echo -e "[${GREEN}06${NC}]${RED} •${NC} Speedtest Server $NC    [${GREEN}16${NC}]${RED} • ${NC}Cert V2ray $NC"
 echo -e "[${GREEN}07${NC}]${RED} •${NC} Add Vmess Account $NC   [${GREEN}17${NC}]${RED} • ${NC}Backup Data VPS $NC"
@@ -193,7 +193,7 @@ case $choosemu in
         del-user
     ;;
     14) # // Add mail
-        xolpanel
+        autobackup
     ;;
     15) # // Backup
         add-host
@@ -202,7 +202,7 @@ case $choosemu in
         crtv2ray
     ;;
     17) # // Create SSL For Stunnel
-        user-backup
+        backup
     ;;
     18) # // OpenVPN
         restore
