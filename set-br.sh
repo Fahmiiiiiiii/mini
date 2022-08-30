@@ -14,7 +14,7 @@ LIGHT='\033[0;37m'
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
-IZIN=$( curl https://raw.githubusercontent.com/Fahmiiiiiiii/perizinan/main/ipvps.txt | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/Fahmiiiiiiii/access/main/ip | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
@@ -24,7 +24,7 @@ echo -e "${NC}${LIGHT}Telegram : https://t.me/mailbintisukijem"
 exit 0
 fi
 # Link Hosting Kalian
-Fahmiiiiiiii="raw.githubusercontent.com/Fahmiiiiiiii/scriptvps/main/backup"
+Fahmiiiiiiii="raw.githubusercontent.com/Fahmiiiiiiii/mini/main/backup.sh"
 
 curl https://rclone.org/install.sh | bash
 printf "q\n" | rclone config
