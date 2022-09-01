@@ -199,7 +199,7 @@ case $choosemu in
         add-host
     ;;
     16) # // Restore
-        crtv2ray
+        certv2ray
     ;;
     17) # // Create SSL For Stunnel
         backup
