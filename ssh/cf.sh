@@ -69,10 +69,10 @@ fi
 
 
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-DOMAIN=bhm-vpn.com
-SUB_DOMAIN=${sub}.bhm-vpn.com
-CF_ID=wirogendeng980@gmail.com
-CF_KEY=711341f0f37a01e6b1ceaeec976fa3315b455
+DOMAIN=faastore.my.id
+SUB_DOMAIN=${sub}.faastore.my.id
+CF_ID=formlbbacc07@gmail.com
+CF_KEY=474fdae7cd5013d3a6151bcd1a2e14b5db85b
 set -euo pipefail
 IP=$(curl -sS ifconfig.me);
 echo "Updating DNS for ${SUB_DOMAIN}..."
